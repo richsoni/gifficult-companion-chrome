@@ -8,8 +8,8 @@
   },
   "page_action":
   {
-    "default_icon" : "assets/video-19.png",
-    "default_title" : "There's a <video> in this page!",
+    "default_icon" : "assets/icon-19.png",
+    "default_title" : "Gifficult!",
     "default_popup" : "html/popup.html"
   },
   "permissions": [
@@ -17,8 +17,8 @@
     "tabs"
   ],
   "icons" : {
-    "48" : "assets/video-48.png",
-    "128" : "assets/video-128.png"
+    "48" : "assets/icon-48.png",
+    "128" : "assets/icon-128.png"
   },
   "manifest_version": 2
 }

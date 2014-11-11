@@ -1,0 +1,36 @@
+{
+  "name": "gifficult-companion",
+  "version": "0.0.1",
+  "description": "tk",
+  "private": true,
+  "author": {
+    "name": "richard soni",
+    "email": "_@richsoni.com"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "watch": "./bin/watch",
+    "test": "mocha",
+    "testw": "mocha --watch test",
+    "build": "./bin/build",
+    "postinstall": "./bin/build"
+  },
+  "devDependencies": {
+    "backbone": "^1.1.2",
+    "browserify": "^4.1.10",
+    "coffee-reactify": "^0.1.3",
+    "coffee-script": "^1.7.1",
+    "coffeeify": "^0.6.0",
+    "envify": "^1.2.1",
+    "jquery": "^2.1.1",
+    "moment": "^2.7.0",
+    "q": "^0.9.7",
+    "react": "^0.11.1",
+    "react-hotkey": "^0.1.1",
+    "sass": "^0.5.0",
+    "underscore": "^1.6.0",
+    "watchify": "^0.10.2"
+  }
+}

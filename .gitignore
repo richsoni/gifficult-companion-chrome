@@ -1,0 +1,6 @@
+*.log
+node_modules
+.sass-cache/
+build/*.crx
+build/unpacked-dev
+build/unpacked-prod

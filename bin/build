@@ -1,0 +1,2 @@
+browserify -t [ coffee-reactify --extension='.coffee' --coffeeout ] -t coffeeify --extension='.coffee' src/coffee/background.coffee > extension/js/background.js;
+browserify -t [ coffee-reactify --extension='.coffee' --coffeeout ] -t coffeeify --extension='.coffee' src/coffee/popup.coffee > extension/js/popup.js;

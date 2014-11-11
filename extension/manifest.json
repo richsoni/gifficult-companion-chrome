@@ -1,0 +1,24 @@
+{
+  "name": "Gifficult-Companion",
+  "version": "0.1",
+  "description": "Page Action to view current subreddit on gifficult",
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "page_action":
+  {
+    "default_icon" : "assets/video-19.png",
+    "default_title" : "There's a <video> in this page!",
+    "default_popup" : "html/popup.html"
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs"
+  ],
+  "icons" : {
+    "48" : "assets/video-48.png",
+    "128" : "assets/video-128.png"
+  },
+  "manifest_version": 2
+}
